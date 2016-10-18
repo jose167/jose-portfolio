@@ -3,8 +3,8 @@ body {
   height: 100%;
   width: 100%; }
 
-body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+body {font-family: 'lato', sans-serif, 'Open Sans', sans-serif;  }
+  
 
 hr {
   border-color: #2B73B1;
@@ -28,12 +28,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
 p {
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  letter-spacing: 2px;}
 
 .bg-primary {
   background-color: #2B73B1; }
@@ -108,7 +109,7 @@ aside {
     .navbar-default .nav > li.active > a:hover,
     .navbar-default .nav > li.active > a:focus:hover {
       background-color: transparent; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .navbar-default {
       background-color: rgba(0, 0, 0, 0.52);
       border-color: rgba(255, 255, 255, 0.3); }
@@ -149,7 +150,7 @@ header {
   background-image: url("../img/header1.jpg");
   text-align: center;
   color: white; }
-  header .header-content {
+   .header-content {
     position: relative;
     text-align: justify;
     padding: 80px 15px 50px 15px;
@@ -159,7 +160,7 @@ header {
   }
 
     header .header-content .header-content-inner h2 {
-      font-weight: 500;
+      font-weight: 400;
       text-transform: uppercase;
       margin-top: auto;
       margin-bottom: 40px;
@@ -171,7 +172,7 @@ header {
      
     }
     header .header-content .header-content-inner p {
-      font-weight: 300;
+      font-weight: 200;
       color: rgba(255, 255, 255, 0.9);
       font-size: 16px;
       margin-bottom: 50px;
@@ -183,7 +184,10 @@ header {
     -webkit-transition: none !important;
     transition: none !important;
 }
-  @media (min-width: 768px) {
+
+
+
+  @media (min-width: 425px) {
     header {
       min-height: 100%;
       }
@@ -206,7 +210,7 @@ header {
           
         }
           header .header-content .header-content-inner p {
-            font-size: 18px;
+            font-size: 20px;
             max-width: 60%;
             margin-left: auto;
             margin-right: auto;
@@ -270,7 +274,7 @@ header {
         font-size: 18px; }
   .portfolio-box:hover .portfolio-box-caption {
     opacity: 1; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {

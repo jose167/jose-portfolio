@@ -15,49 +15,42 @@
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
-    $(".progress-bar-1").animate({
-    width: "80%"
-}, 2500 );
-  $(".progress-bar2").animate({
-    width: "85%"
-}, 2500 );
-  $(".progress-bar3").animate({
-    width: "75%"
-}, 2500 );
-  $(".progress-bar4").animate({
-    width: "55%"
-}, 2500 );
-  $(".progress-bar5").animate({
+    
+    
+    $(window).on('scroll', function() {
+      $(".progress-80").animate({
+          width: "80%"
+      }, 5000  );
+       $(".progress-75").animate({
+          width: "75%"
+      }, 5000 );
+  $(".progress-85").animate({
+          width: "85%"
+      }, 5500 );
+  $(".progress-65").animate({
+    width: "65%"
+}, 5000 );
+  $(".progress-50").animate({
     width: "50%"
-}, 2500 );
+}, 5000 );
 
-  $(".progress-bar6").animate({
-    width: "55%"
+  $(".progress-70").animate({
+    width: "70%"
+}, 5000 );
+  $(".progress-30").animate({
+    width: "30%"
 }, 2500 );
-  $(".progress-bar7").animate({
-    width: "60%"
-}, 2500 );
-  $(".progress-bar8").animate({
-    width: "45%"
-}, 2500 );
+  $(".progress-40").animate({
+    width: "40%"
+}, 5000 );
   $(".progress-bar9").animate({
     width: "40%"
-}, 2500 );
-  $(".progress-bar10").animate({
-    width: "75%"
-}, 2500 );
-  $(".progress-bar11").animate({
-    width: "50%"
-}, 2500 );
-  $(".progress-bar12").animate({
-    width: "55%"
-}, 2500 );
+}, 5000 );
   $(".progress-bar13").animate({
     width: "100%"
-}, 2500 );
-
-
-
+}, 5000 );
+    })
+       
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
